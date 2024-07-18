@@ -85,6 +85,9 @@
     .banner-p {
         padding: 19px 0;
     }
+    .section-h2 {
+        font-size: 35px;
+    }
     .header-container {
         row-gap: 20px;
     }
@@ -129,6 +132,9 @@
     .banner-p {
         padding: 19px 0;
     }
+    .section-h2 {
+        font-size: 40px;
+    }
     .header-container {
         row-gap: 20px;
     }
@@ -139,4 +145,18 @@
         grid-template-rows: 300px 400px;
         gap: 10px;
     }
+      /* habit part start */
+      .habit-card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    .habit-container .habit-text {
+        max-width: 400px;
+        text-align: center;
+    }
+    .habit-card-container .habit-card .habit-inner-text {
+        max-width: 230px;
+    }
+    /* habit part end */
 }
