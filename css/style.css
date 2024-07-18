@@ -294,10 +294,12 @@ a{
 }
 .run-container .run-text button{
     background-color: var(--btn-color);
+    border: none;
 }
 .run-container .run-image img{
     width: 100%;
     height: auto;
+    border-radius: 16px;
 }
 /* run part end */
 
