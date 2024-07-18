@@ -384,4 +384,34 @@ a{
     margin: 0 auto;
 }
 /* tranning part end */
+/* calculator part start */
+#calculator{
+    background-color: rgb(34,34,34);
+}
+.calculator-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+.calculator-chart table{
+    margin-top: 60px;
+   border-collapse: collapse;
+}
+.calculator-chart table th{
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid var(--secondary-color);
+    padding: 10px;
+    text-align: left;
+    color: var(--primary-color);
+}
+.calculator-chart table td{
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid var(--secondary-color);
+    padding: 10px;
+    color: var(--secondary-color);
+    
+}
+/* calculator part end */
 
