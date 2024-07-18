@@ -38,5 +38,89 @@ a{
 }
 /* common css end */
 /* shared style start */
+.banner-h1{
+    font-size: 78px;
+    font-weight: 900;
+    color: var(--primary-color);
+    line-height: 120%;
+}
+.banner-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--secondary-color);
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    padding: 13px 0;
+}
+.common-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-color);
+    line-height: 22px;
+    padding: 40px 16px;
+    border: none;
+    border-radius: 42px;
+}
+.section-h2{
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--primary-color);
+    line-height: 120%;
+}
+.section-h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 120%;
+}
+.section-h4{
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--primary-color);
+    line-height: 120%;
+}
+.section-h5{
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--primary-color);
+    line-height: 120%;
+}
+.section-h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-color);
+    line-height: 120%;
+}
+.section-p{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--secondary-color);
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    padding: 13px 0;
+}
+.banner-span{
+    font-weight: 400;
+    font-family: var(--font-family);
+}
+.span-one{
+    font-size: 40px;
+    color: var(--primary-color);
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+.span-two{
+    font-size: 24px;
+    font-weight: 900;
+    color: #FAFAF9;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary-color);
+}
 
 /* shared style end */
