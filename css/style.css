@@ -278,4 +278,26 @@ a{
         padding: 8px;
 }
 /* habits part endu */
+/* run part start */
+#run{
+    margin: 100px 0;
+}
+
+.run-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(34,34,34);
+}
+.run-container .run-text{
+    max-width: 450px;
+}
+.run-container .run-text button{
+    background-color: var(--btn-color);
+}
+.run-container .run-image img{
+    width: 100%;
+    height: auto;
+}
+/* run part end */
 
