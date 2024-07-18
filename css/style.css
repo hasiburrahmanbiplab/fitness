@@ -23,6 +23,7 @@ body{
     max-width: 1100px;
     border: 1px solid green;
     margin: 0 auto;
+    padding: 0 10px;
 }
 ul{
     padding: 0;
@@ -131,7 +132,6 @@ a{
     /* background-color: black; */
 }
 .header-container{
-    padding: 50px;
     display: flex;
     flex-direction: column;
     row-gap: 50px;
@@ -140,11 +140,20 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 30px 0;
 }
 .navbar .navbar-link{
     border: 1px solid var(--secondary-color);
     border-radius: 50px;
     padding: 4px;
+}
+.navbar .navbar-link .bar{
+    color:var(--primary-color);
+    font-size: 30px;
+}
+.navbar-link nav ul{
+    display: flex;
+    gap: 20px;
 }
 .navbar .navbar-link nav ul .nav-link{
     padding: 10px 20px;
@@ -155,10 +164,10 @@ a{
     background-color: var(--btn-color);
     transition: all linear 0.3s;
 }
-.navbar-link nav ul{
-    display: flex;
-    gap: 50px;
+.navbar .navbar-link nav ul .active{
+    background-color: var(--btn-color);
 }
+
 /* banner part  */
 .banner{
    display: grid;
@@ -169,6 +178,9 @@ a{
 .banner .banner-text{
     max-width: 520px;
     align-self: center;
+}
+.banner-text button:nth-last-of-type(1){
+    margin-left: 10px;
 }
 .banner .banner-image{
     position: relative;
