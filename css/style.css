@@ -39,27 +39,28 @@ a{
 /* common css end */
 /* shared style start */
 .banner-h1{
-    font-size: 78px;
+    font-size: 70px;
     font-weight: 900;
     color: var(--primary-color);
     line-height: 120%;
 }
 .banner-p{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: var(--secondary-color);
     line-height: 24px;
     letter-spacing: 0.5px;
-    padding: 13px 0;
+    padding: 15px 0;
 }
 .common-btn{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--primary-color);
     line-height: 22px;
-    padding: 40px 16px;
-    border: none;
+    padding: 15px 40px;
+    border: 1px solid var(--tertiary-color);
     border-radius: 42px;
+    background: transparent;
 }
 .section-h2{
     font-size: 48px;
@@ -155,4 +156,30 @@ a{
     display: flex;
     gap: 50px;
 }
+/* banner part  */
+.banner{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 500px;
+   gap: 20px;
+   border: 1px solid red;
+}
+.banner .banner-text{
+    max-width: 520px;
+    border: 1px solid blue;
+    align-self: center;
+}
+.banner .banner-image{
+    border: 1px solid green;
+}
+.banner .banner-image {
+    
+}
+.banner .banner-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+/* banner part start */
 /* header part end */
