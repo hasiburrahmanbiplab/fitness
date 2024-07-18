@@ -124,3 +124,35 @@ a{
 }
 
 /* shared style end */
+/* header part start */
+#header{
+    background-image: linear-gradient(rgb(30,30,30), rgb(3,3,3));
+    /* background-color: black; */
+}
+.header-container{
+    padding: 50px;
+}
+.header-container .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .navbar-link{
+    border: 1px solid var(--secondary-color);
+    border-radius: 50px;
+    padding: 4px;
+}
+.navbar .navbar-link nav ul .nav-link{
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all linear 0.3s;
+}
+.navbar .navbar-link nav ul .nav-link:hover{
+    background-color: var(--btn-color);
+    transition: all linear 0.3s;
+}
+.navbar-link nav ul{
+    display: flex;
+    gap: 50px;
+}
+/* header part end */
