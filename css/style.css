@@ -235,20 +235,46 @@ a{
 /* banner part start */
 /* header part end */
 /* habits part start */
-#habits{
+#habit{
     background-color: black;
     margin: 100px 0;
 }
-.habits-container{
+.habit-container{
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
 }
-.habits-container .habits-text{
+.habit-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.habit-container .habit-text{
     max-width: 600px;
     text-align: center;
 }
-
+.habit-card-container .habit-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.habit-card-container .habit-card .habit-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.habit-card-container .habit-card .habit-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.habit-card-container .habit-card .habit-inner-text{
+    text-align: center;
+}
+.habit-card-container .habit-card .habit-inner-text p{
+        padding: 8px;
+}
 /* habits part endu */
 
