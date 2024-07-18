@@ -302,4 +302,30 @@ a{
     border-radius: 16px;
 }
 /* run part end */
+/* tranning part start */
+#tranning{}
+
+.tranning-container{}
+.tranning-container .tranning-text{
+   max-width: 600px;
+}
+.tranning-image .row-1{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.tranning-image .row-1 .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tranning-image .row-2{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.5fr;
+}
+.tranning-image .row-2 .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* tranning part end */
 
