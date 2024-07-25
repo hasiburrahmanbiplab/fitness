@@ -493,6 +493,7 @@ a{
     align-items: center;
     flex-direction: column;
     padding: 30px 0;
+    row-gap: 20px;
 }
 .equipment-header{
     text-align: center;

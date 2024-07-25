@@ -145,6 +145,16 @@
        grid-template-columns: 1fr;
     }
     /* team part end */
+    /* equipment part start */
+    #equipment {
+        margin: 10px 0;
+    }
+    .equipment-image {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    /* equipment part end */
     /* footer part start */
     .footer-container .footer-content{
         grid-template-columns: 1fr;
