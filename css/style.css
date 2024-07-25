@@ -22,9 +22,8 @@ body{
 }
 .container{
     max-width: 1100px;
-    border: 1px solid green;
     margin: 0 auto;
-    padding: 0 10px;
+    padding:10px;
 }
 ul{
     padding: 0;
@@ -125,7 +124,6 @@ a{
     font-weight: 400;
     color: var(--primary-color);
 }
-
 /* shared style end */
 /* header part start */
 #header{
@@ -169,7 +167,6 @@ a{
 .navbar .navbar-link nav ul .active{
     background-color: var(--btn-color);
 }
-
 /* banner part  */
 .banner{
    display: grid;
@@ -282,12 +279,12 @@ a{
 #run{
     margin: 100px 0;
 }
-
 .run-container{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: rgb(34,34,34);
+    padding: 15px;
 }
 .run-container .run-text{
     max-width: 450px;
@@ -411,14 +408,111 @@ a{
     font-weight: 400;
     border: 1px solid var(--secondary-color);
     padding: 10px;
-    color: var(--secondary-color);
-    
+    color: var(--secondary-color);  
 }
 .calculator-bmi form{
-    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
-.calculator-bmi form input{
-    /* width: 100%; */
+.calculator-bmi form input, select {
+    width: 100%;
+ }
+.calculator-bmi form .select {
+    grid-column: span 2;
+}
+.calculator-bmi form input, select{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+}
+.calculator-bmi button{
+    margin-top:20px ;
 }
 /* calculator part end */
-
+/* team part start */
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    padding: 20px 0;
+}
+ .team-container .team-text{
+    max-width: 550px;
+    text-align: center;
+ }
+ .team-container .team-image{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 15px;
+    background-color: rgba(63, 62, 62, 0.382);
+    border-radius: 16px;
+ }
+ .team-image .img{
+    position: relative;
+ }
+ .team-image .img .overly{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 15px;
+ }
+ .team-image .img .overly span{
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--tertiary-color);
+ }
+ .team-image .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+ }
+/* team part end */
+/* footer part start */
+#footer{
+    background-color: #4d4b4b56;
+}
+ .footer-container{
+   display: flex;
+   flex-direction: column;
+ }
+ .footer-container .footer-content{
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 50px;
+    padding: 15px 0 40px;
+    justify-items: center;
+ }
+ .footer-content .footer-second ul li{
+    display: block;
+    margin-top: 15px;
+ }
+ .footer-content .footer-second ul li a{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--secondary-color);
+ }
+ .footer-container .copyright{
+    text-align: center;
+    padding: 30px 0 15px;
+ }
+ .copyright span{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-color);
+ }
+/* footer part end */

@@ -18,6 +18,9 @@
     .section-h2 {
         font-size: 30px;
     }
+    .section-h4 {
+        font-size: 20px;
+    }
     .common-btn {
         font-size: 13px;
         line-height: 22px;
@@ -63,7 +66,6 @@
     /* header part end */
     /* habits part start */
     #habit {
-        background-color: black;
         margin: 56px 0;
     }
     .habit-card-container {
@@ -83,7 +85,7 @@
     .run-container {
        flex-direction: column;
        row-gap: 40px;
-       padding: 35px;
+       padding: 12px;
     }
     .run-container .run-text {
         max-width: 362px;
@@ -110,6 +112,52 @@
         display: none;
     }
     /* tranning part end */
+    /* calbulator part start */
+    .calculator-container {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        justify-items: start;
+        padding: 0;
+    }
+    .calculator-chart table {
+        margin-top: 27px;
+    }
+    .calculator-bmi{
+        width: 100%;
+    }
+    .calculator-bmi form{
+        width: 100%;
+    }
+    .calculator-bmi form input, select {
+       width: 100%;
+    }
+    .calculator-bmi form select option{
+        background-color: rgba(75, 74, 74, 0.365);
+    }
+    .calculator-bmi button{
+        font-size: 16px;
+        padding: 15px 30px;
+        line-height: initial;
+    }
+    /* calbulator part end */
+    /* team part start  */
+    .team-container .team-image {
+       grid-template-columns: 1fr;
+    }
+    /* team part end */
+    /* footer part start */
+    .footer-container .footer-content{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        padding: 40px 0;
+        justify-items: start;
+    }
+    .footer-content .footer-first{
+        max-width: 400px;
+    }
+    /* footer part end */
+
+
 }/* medium device responsive */
 @media (min-width:577px) and (max-width:767.99px) {
     .banner-h1 {
@@ -121,6 +169,12 @@
     }
     .section-h2 {
         font-size: 35px;
+    }
+    .section-h4 {
+        font-size: 20px;
+    }
+    .section-h6 {
+        font-size: 14px;
     }
     .header-container {
         row-gap: 20px;
@@ -134,7 +188,6 @@
     .navbar .navbar-link .bar{
         display: block;
     }
-
     /* banner part start */
     .banner {
         display: grid;
@@ -144,7 +197,6 @@
     }
     /* habit part start */
     #habit {
-        background-color: black;
         margin: 56px 0;
     }
     .habit-card-container {
@@ -162,11 +214,12 @@
     /* habit part end */
     /* run part start */
     .run-container{
+        justify-content: space-between;
         gap: 9px;
-        padding: 20px;
+        padding: 11px;
     }
     .run-container .run-text {
-        max-width: 290px;
+        max-width: 335px;
     }
     .run-container .run-image{
         height: 300px; 
@@ -192,6 +245,44 @@
         margin: initial;
     }
     /* tranning part end */
+       /* calbulator part start */
+       .calculator-container {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        justify-items: start;
+        padding: 0;
+    }
+    .calculator-chart table {
+        margin-top: 27px;
+    }
+    .calculator-bmi{
+        width: 100%;
+    }
+    .calculator-bmi form{
+        width: 100%;
+    }
+    .calculator-bmi form input, select {
+       width: 100%;
+    }
+    .calculator-bmi form select option{
+        background-color: rgba(75, 74, 74, 0.365);
+    }
+    .calculator-bmi button{
+        font-size: 16px;
+        padding: 15px 30px;
+        line-height: initial;
+    }
+    /* calbulator part end */
+    /* footer part start */
+    .footer-container .footer-content{
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: start;
+     }
+     .footer-content .footer-first{
+        grid-column: span 3;
+        max-width: 450px;
+     }
+    /* footer part end */
 }
 /*  */
 @media (min-width:768px) and (max-width:991.99px) {
@@ -204,6 +295,7 @@
     }
     .section-h2 {
         font-size: 40px;
+        line-height: 145%;
     }
     .header-container {
         row-gap: 20px;
@@ -229,10 +321,21 @@
         max-width: 230px;
     }
     /* habit part end */
+    /* run part start */
+    .run-container .run-text {
+        max-width: 385px;
+    }
+    /* run part end */
     /* tranning part start */
     .tranning-image .img .overly p {
         width: 100%;
         font-size: 12px;
     }
     /* tranning part end */
+    /* calculator part start */
+    .calculator-container {
+        padding: 5px;
+        justify-items: start;
+    }
+    /* calculator part end */
 }
