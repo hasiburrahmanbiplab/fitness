@@ -4,9 +4,6 @@
         font-size: 38px;
         line-height: 131%;
     }
-    .banner-p {
-        padding: 19px 0 25px;
-    }
     .span-one {
         font-size: 22px;
         line-height: 23px;
@@ -27,7 +24,7 @@
         line-height: initial;
     }
     .header-container {
-        row-gap: 20px;
+        row-gap: 30px;
     }
     .navbar .navbar-link{
         border: none;
@@ -62,14 +59,10 @@
         font-size: 10px !important;
         padding: 0px !important;
     }
-    .banner-text button:nth-last-of-type(1) {
-        margin-left: 0;
-        margin-top: 15px;
-    }
     /* header part end */
     /* habits part start */
     #habit {
-        margin: 56px 0;
+        margin: 20px 0;
     }
     .habit-card-container {
         display: grid;
@@ -86,21 +79,42 @@
     /* habits part end */
     /* run part start */
     #run {
-        margin: 45px 0;
+        margin: 20px 0;
     }
     .run-container {
        flex-direction: column;
        row-gap: 40px;
-       padding: 30px 15px;
+       padding: 20px;
     }
     .run-container .run-text {
-        max-width: 362px;
+        max-width: 366px;
     }
     .run-text button{
         width: 100%;
     }
     /* run part end */
     /* tranning part start */
+    #tranning {
+        margin: 30px 0;
+    }
+    .tranning-image .image-1 {
+        grid-column: 1 / -1;
+    }
+    .tranning-image .image-2 {
+        grid-column: 1 / -1;
+    }
+    .tranning-image .image-3{
+        display: none;
+    }
+    .tranning-image .image-4 {
+        grid-column: 1 / -1;
+    }
+    .tranning-image .image-5 {
+        grid-column: 1 / -1;
+    }
+    .tranning-image .image-6{
+        display: none;
+    }
     .tranning-image .img .overly p {
         width: 100%;
     }
@@ -134,6 +148,10 @@
     }
     /* calbulator part end */
     /* team part start  */
+    #team {
+        padding: 0;
+        margin: 30px 0;
+    }
     .team-container .team-image {
        grid-template-columns: 1fr;
     }
@@ -141,6 +159,7 @@
     /* equipment part start */
     #equipment {
         margin: 10px 0;
+        padding: 20px 0;
     }
     .equipment-image {
         grid-template-columns: repeat(1, 1fr);
@@ -150,7 +169,6 @@
     .footer-container .footer-content{
         grid-template-columns: 1fr;
         row-gap: 30px;
-        padding: 40px 0;
         justify-items: start;
     }
     .footer-content .footer-first{
@@ -236,6 +254,26 @@
     }
     /* run part end */
     /* tranning part start */
+    .tranning-image .image-1 {
+        grid-column: 1 / 6;
+    }
+    .tranning-image .image-2 {
+        grid-column: 6 / -1;
+    }
+
+    .tranning-image .image-3{
+        grid-column: 1 / 8;
+    }
+    .tranning-image .image-4 {
+        grid-column: 8 / -1;
+    }
+
+    .tranning-image .image-5 {
+        grid-column: 1 / 6;
+    }
+    .tranning-image .image-6{
+        grid-column: 6 / -1;
+    }
  
     .calculator-text{
         max-width: 600px;
@@ -244,10 +282,10 @@
     /* tranning part end */
     /* calbulator part start */
     .calculator-container {
-    grid-template-columns: 1fr;
-    row-gap: 40px;
-    justify-items: start;
-    padding: 20px 0;
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        justify-items: start;
+        padding: 20px 0;
     }
     .calculator-chart table {
         margin-top: 27px;
@@ -292,8 +330,8 @@
 /*  */
 @media (min-width:768px) and (max-width:991.99px) {
     .banner-h1 {
-        font-size: 55px;
-        line-height: 131%;
+        font-size: 50px;
+        line-height: 116%;
     }
     .banner-p {
         padding: 19px 0;
@@ -308,8 +346,8 @@
     /* banner part start */
     .banner {
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 300px 400px;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: 300px 400px; */
         gap: 10px;
     }
       /* habit part start */

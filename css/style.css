@@ -49,9 +49,9 @@ a{
     font-size: 14px;
     font-weight: 400;
     color: var(--secondary-color);
-    line-height: 30px;
+    line-height: 25px;
     letter-spacing: 0.5px;
-    padding: 30px 0;
+    padding: 10px 0;
 }
 .common-btn{
     font-size: 16px;
@@ -63,6 +63,7 @@ a{
     border-radius: 42px;
     background: transparent;
     text-transform: capitalize;
+    cursor: pointer;
 }
 .section-h2{
     font-size: 48px;
@@ -179,8 +180,9 @@ a{
     max-width: 520px;
     align-self: center;
 }
-.banner-text button:nth-last-of-type(1){
-    margin-left: 10px;
+.banner-text button:nth-last-of-type(2){
+  margin: 15px 10px 15px 0;
+
 }
 .banner .banner-image{
     position: relative;
@@ -277,15 +279,13 @@ a{
 }
 /* habits part endu */
 /* run part start */
-#run{
-    margin: 100px 0;
-}
 .run-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(34,34,34);
     padding: 40px;
+    border-radius: 16px;
 }
 .run-container .run-text{
     max-width: 450px;
@@ -301,6 +301,9 @@ a{
 }
 /* run part end */
 /* tranning part start */
+#tranning{
+    margin: 60px 0;
+}
 .tranning-container{
     display: flex;
     flex-direction: column;
@@ -398,7 +401,7 @@ a{
 .calculator-container{
     display: grid;
     grid-template-columns: 1fr 1.2fr;
-    padding: 35px;
+    padding: 40px 0;
     justify-items: center;
 }
 .calculator-chart table{
@@ -447,13 +450,16 @@ a{
 }
 /* calculator part end */
 /* team part start */
+#team{
+    margin: 50px 0;
+}
 .team-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 40px;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
  .team-container .team-text{
     max-width: 550px;
@@ -497,15 +503,14 @@ a{
 /* equipment part start */
 #equipment{
     background-color: rgb(34,34,34);
-    margin: 100px 0;
 }
 .equipment-container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 0;
     row-gap: 50px;
+    padding: 30px 0;
 }
 .equipment-header{
     text-align: center;
@@ -531,16 +536,17 @@ a{
 /* footer part start */
 #footer{
     background-color: #000000;
+    padding: 50px 0;
 }
  .footer-container{
    display: flex;
    flex-direction: column;
+   row-gap: 50px;
  }
  .footer-container .footer-content{
     display: grid;
     grid-template-columns: 1.4fr 1fr 1fr;
     gap: 50px;
-    padding: 15px 0 40px;
     justify-items: center;
  }
  .footer-content .footer-second ul li{
@@ -554,11 +560,10 @@ a{
  }
  .footer-container .copyright{
     text-align: center;
-    padding: 30px 0 15px;
  }
  .copyright span{
     font-size: 16px;
     font-weight: 500;
-    color: var(--primary-color);
+    color: var(--secondary-color);
  }
 /* footer part end */
