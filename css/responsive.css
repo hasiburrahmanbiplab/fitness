@@ -39,7 +39,7 @@
     .banner {
         grid-template-columns: 1fr;
         grid-template-rows: 300px 400px;
-        gap: 10px;
+        gap: 30px;
     }
     .banner-image .overly .card-1 {
         width: 155px;
