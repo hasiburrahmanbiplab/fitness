@@ -4,14 +4,12 @@
         font-size: 38px;
         line-height: 131%;
     }
-    .span-one {
-        font-size: 22px;
-        line-height: 23px;
-    }
+     .span-one {
+        font-size: 22px; 
+       }
     .span-two {
-        font-size: 22px;
-        line-height: 19px;
-    }
+        font-size: 22px; 
+       } 
     .section-h2 {
         font-size: 30px;
     }
@@ -23,9 +21,6 @@
         padding: 15px 30px;
         line-height: initial;
     }
-    .header-container {
-        row-gap: 30px;
-    }
     .navbar .navbar-link{
         border: none;
     }
@@ -36,28 +31,9 @@
         display: block;
     }
     /* banner part start */
-    .banner {
+    .header-container .banner{
         grid-template-columns: 1fr;
-        grid-template-rows: 300px 400px;
-        gap: 30px;
-    }
-    .banner-image .overly .card-1 {
-        width: 155px;
-        height: 62px;
-        padding: 0px 13px;
-        right: 0;
-        top: 150px;
-    }
-    .banner-image .overly .card-1 p{
-        font-size: 10px !important;
-        padding: 0px !important;
-    }
-    .banner-image .overly .card-2 {
-        width: 141px;
-    }
-    .banner-image .overly .card-2 p{
-        font-size: 10px !important;
-        padding: 0px !important;
+        row-gap: 20px;
     }
     /* header part end */
     /* habits part start */
@@ -183,9 +159,6 @@
         font-size: 48px;
         line-height: 131%;
     }
-    .banner-p {
-        padding: 19px 0;
-    }
     .section-h2 {
         font-size: 35px;
     }
@@ -194,9 +167,6 @@
     }
     .section-h6 {
         font-size: 14px;
-    }
-    .header-container {
-        row-gap: 20px;
     }
     .navbar .navbar-link{
         border: none;
@@ -208,11 +178,9 @@
         display: block;
     }
     /* banner part start */
-    .banner {
-        display: grid;
+    .header-container .banner{
         grid-template-columns: 1fr;
-        grid-template-rows: 300px 400px;
-        gap: 10px;
+        row-gap: 20px;
     }
     /* habit part start */
     #habit {
@@ -329,27 +297,20 @@
 }
 /*  */
 @media (min-width:768px) and (max-width:991.99px) {
-    .banner-h1 {
-        font-size: 50px;
-        line-height: 116%;
+    .header-container .banner {
+        display: grid;
+        grid-template-columns: 1.1fr 1fr;
+        align-items: center;
     }
-    .banner-p {
-        padding: 19px 0;
+    .banner-h1 {
+        font-size: 55px;
+        line-height: 116%;
     }
     .section-h2 {
         font-size: 40px;
         line-height: 145%;
     }
-    .header-container {
-        row-gap: 20px;
-    }
     /* banner part start */
-    .banner {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        /* grid-template-rows: 300px 400px; */
-        gap: 10px;
-    }
       /* habit part start */
       #habit {
         margin: 50px 0;
