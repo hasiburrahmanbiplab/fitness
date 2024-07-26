@@ -5,7 +5,7 @@
         line-height: 131%;
     }
     .banner-p {
-        padding: 19px 0;
+        padding: 19px 0 25px;
     }
     .span-one {
         font-size: 22px;
@@ -22,9 +22,9 @@
         font-size: 20px;
     }
     .common-btn {
-        font-size: 13px;
-        line-height: 22px;
-        padding: 13px 24px;
+        font-size: 16px;
+        padding: 15px 30px;
+        line-height: initial;
     }
     .header-container {
         row-gap: 20px;
@@ -40,10 +40,9 @@
     }
     /* banner part start */
     .banner {
-        display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 300px 400px;
-        gap: 10px;
+        gap: 30px;
     }
     .banner-image .overly .card-1 {
         width: 155px;
@@ -62,6 +61,10 @@
     .banner-image .overly .card-2 p{
         font-size: 10px !important;
         padding: 0px !important;
+    }
+    .banner-text button:nth-last-of-type(1) {
+        margin-left: 0;
+        margin-top: 15px;
     }
     /* header part end */
     /* habits part start */
@@ -82,10 +85,13 @@
     }
     /* habits part end */
     /* run part start */
+    #run {
+        margin: 45px 0;
+    }
     .run-container {
        flex-direction: column;
        row-gap: 40px;
-       padding: 12px;
+       padding: 30px 15px;
     }
     .run-container .run-text {
         max-width: 362px;
@@ -97,19 +103,6 @@
     /* tranning part start */
     .tranning-image .img .overly p {
         width: 100%;
-        font-size: 10px;
-    }
-    .tranning-image .row-1{
-        grid-template-columns: 1fr 1fr;
-    }
-    .tranning-image .row-1 .image-3{
-        display: none;
-    }
-    .tranning-image .row-2{
-        grid-template-columns: 1fr 1fr;
-    }
-    .tranning-image .row-2 .image-6{
-        display: none;
     }
     /* tranning part end */
     /* calbulator part start */
@@ -117,7 +110,7 @@
         grid-template-columns: 1fr;
         row-gap: 30px;
         justify-items: start;
-        padding: 0;
+        padding: 30px 0;
     }
     .calculator-chart table {
         margin-top: 27px;
@@ -150,9 +143,7 @@
         margin: 10px 0;
     }
     .equipment-image {
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
     }
     /* equipment part end */
     /* footer part start */
@@ -223,13 +214,16 @@
     }
     /* habit part end */
     /* run part start */
-    .run-container{
+    #run {
+        margin: 45px 0;
+    }
+    .run-container {
         justify-content: space-between;
-        gap: 9px;
-        padding: 11px;
+        gap: 15px;
+        padding: 20px;
     }
     .run-container .run-text {
-        max-width: 335px;
+        max-width: 280px;
     }
     .run-container .run-image{
         height: 300px; 
@@ -242,25 +236,18 @@
     }
     /* run part end */
     /* tranning part start */
-    .tranning-image .row-2 {
-        display: grid;
-        grid-template-columns: 1.5fr 1fr 1fr;
-    }
-    .tranning-image .img .overly p {
-        width: 100%;
-        font-size: 10px;
-    }
+ 
     .calculator-text{
         max-width: 600px;
         margin: initial;
     }
     /* tranning part end */
-       /* calbulator part start */
-       .calculator-container {
-        grid-template-columns: 1fr;
-        row-gap: 30px;
-        justify-items: start;
-        padding: 0;
+    /* calbulator part start */
+    .calculator-container {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+    justify-items: start;
+    padding: 20px 0;
     }
     .calculator-chart table {
         margin-top: 27px;
@@ -283,6 +270,14 @@
         line-height: initial;
     }
     /* calbulator part end */
+    /* equipment part start */
+    #equipment {
+        margin: 10px 0;
+    }
+    .equipment-image {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* equipment part end */
     /* footer part start */
     .footer-container .footer-content{
         grid-template-columns: 1fr 1fr 1fr;
@@ -318,6 +313,9 @@
         gap: 10px;
     }
       /* habit part start */
+      #habit {
+        margin: 50px 0;
+    }
       .habit-card-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -332,6 +330,9 @@
     }
     /* habit part end */
     /* run part start */
+    #run {
+        margin: 50px 0;
+    }
     .run-container .run-text {
         max-width: 385px;
     }
@@ -344,8 +345,16 @@
     /* tranning part end */
     /* calculator part start */
     .calculator-container {
-        padding: 5px;
+        padding: 25px 0;
         justify-items: start;
     }
+    .calculator-chart table {
+        margin-top: 29px;
+    }
     /* calculator part end */
+    /* equipment part start */
+    #equipment {
+        margin: 50px 0;
+    }
+    /* equipment part end */
 }
